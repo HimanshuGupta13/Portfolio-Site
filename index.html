@@ -1,0 +1,222 @@
+<! DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Himanshu Gupta Portfolio</title>
+        <!-- link to fontawesome for inserting social media icons 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+            integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg== "
+            crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- link to css file -->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar">
+            <a href="#home" class="logo">Himanshu Gupta</a>
+
+            <!-- Hamburger Menu -->
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Full-Stack Developer</h1>
+                <p id="typed-text"></p>
+                <a href="#contact" class="cta-button">Let's Connect</a>
+                <a href="HimanshuGupta_CV.pdf" download class="download-cv">
+                    <i class="fas fa-download"></i> Download CV
+                </a>
+
+
+            </div>
+            <div class="hero-image">
+                <img src="profile.jpg" alt="Profile" class="profile-img">
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fa-solid fa-hexagon-nodes"></i>
+                    <h3>Coding Languages</h3>
+                    <p>JAVA, C, C++, Python, HTML5, CSS3, JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Frameworks & Tools</h3>
+                    <p>NumPy, Pandas, Matplotlib, VsCode, GitHub</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Soft Skills</h3>
+                    <p>Teamwork, Problem Solving, Effective Communication (English & Hindi), Adaptability</p>
+                </div>
+            </div>
+        </section>
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Age Detection using Deep Learning</h3>
+                    <p>
+                        Designed and implemented a deep learning solution for age prediction using facial images.
+                        Leveraged <span class="highlight">TensorFlow</span> to build and train CNN architectures,
+                        applying data augmentation and optimization techniques to improve accuracy.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Book Store Management System</h3>
+                    <p>
+                        Developed a system using <span class="highlight">Python</span> &
+                        <span class="highlight">MySQL</span> to manage books, sales, and customer records.
+                        Implemented full CRUD operations for efficient store operations and data handling.
+                    </p>
+                </div>
+
+                <div class="project-card">
+                    <h3>Line Following & Obstacle Avoiding Robot</h3>
+                    <p>
+                        Built an autonomous robot using sensors and microcontrollers to follow paths and avoid obstacles
+                        in real time. Applied motor control logic and sensor integration to achieve smooth navigation.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements">
+            <h2>Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <h3><i class="fas fa-robot" style="color: var(--accent); margin-right: 8px;"></i>
+                        Research Paper: Collision Avoidance & Line Following Robot
+                    </h3>
+                    <p>Designed an autonomous robot using sensors for obstacle avoidance and path following,
+                        demonstrating applications in robotics and automation.</p>
+                    <a href="https://drive.google.com/file/d/1d0bAvy4DIWLu-s1tb_2D94-R266pNbO-/view?usp=sharing"
+                        target="_blank" class="credential-btn">
+                        View Credential <i class="fas fa-external-link-alt" style="margin-left:5px;"></i>
+                    </a>
+                </div>
+
+                <div class="achievement-card">
+                    <h3>Google Cloud Innovators Member</h3>
+                    <p>Recognized for completing projects and challenges on Google Cloud Platform.</p>
+                    <a href="https://example.com/credential-link" target="_blank" class="credential-btn">
+                        View Credential <i class="fas fa-external-link-alt" style="margin-left:5px;"></i>
+                    </a>
+                </div>
+
+                <div class="achievement-card">
+                    <h3>College Ambassador, Techfest IIT Bombay</h3>
+                    <p>Represented my college and promoted technology events and workshops on campus.</p>
+                    <a href="https://drive.google.com/file/d/162L8Gi37SuoYRiydpd5umM3hhyegk2hE/view?usp=drive_link"
+                        target="_blank" class="credential-btn">
+                        View Credential <i class="fas fa-external-link-alt" style="margin-left:5px;"></i>
+                    </a>
+                </div>
+
+                <div class="achievement-card">
+                    <h3>CyberPeace First Responders & Myth Busters</h3>
+                    <p>CyberPeace Corps (supported by Google.org), Aug 2025</p><a
+                        href="https://drive.google.com/file/d/19R2mTXFWiWiZsMEneRdIwemZb7JZWwCa/view?usp=sharing"
+                        target="_blank" class="credential-btn">
+                        View Credential <i class="fas fa-external-link-alt" style="margin-left:5px;"></i>
+                    </a>
+                </div>
+
+                <div class="achievement-card">
+                    <h3>Using Databases with Python</h3>
+                    <p>University of Michigan (Coursera), Aug 2025</p><a
+                        href="https://coursera.org/share/06e52c631315987c58c5e1343742b8ef" target="_blank"
+                        class="credential-btn">
+                        View Credential <i class="fas fa-external-link-alt" style="margin-left:5px;"></i>
+                    </a>
+                </div>
+
+                <div class="achievement-card">
+                    <h3>Python Data Analytics</h3>
+                    <p>Meta (Coursera), Aug 2025</p><a
+                        href="https://coursera.org/share/2341f25f2f070a7d1e6d904344f394c0" target="_blank"
+                        class="credential-btn">
+                        View Credential <i class="fas fa-external-link-alt" style="margin-left:5px;"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form" action="https://formspree.io/f/mnngdbld" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="6" required></textarea>
+                </div>
+
+                <button type="submit" class="contact-btn">Send Message</button>
+            </form>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 Himanshu Gupta. All rights reserved .</p>
+            <div class="social-links">
+                <a href="https://github.com/HimanshuGupta13" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=himansshu05@gmail.com" target="_blank"><i
+                        class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/himansshugupta05/" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+        </footer>
+        <!-- link to javascript file -->
+        <script src="script.js"></script>
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                var typed = new Typed('#typed-text', {
+                    strings: [
+                        'Crafting innovative digital solutions that blend creativity with technology.',
+                        'Building scalable and interactive web applications from front-end to back-end.'
+                    ],
+                    typeSpeed: 40,       // typing speed
+                    backSpeed: 30,       // deleting speed
+                    backDelay: 1500,     // pause before deleting
+                    loop: true,          // repeat forever
+                    showCursor: false    // hides the blinking cursor
+                });
+            });
+        </script>
+    </body>
+    </htm1>
